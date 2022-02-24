@@ -1,0 +1,195 @@
+#grids {
+    display: grid;
+    grid-template-areas: "header header header" "carousel carousel carousel" "nosotros nosotros nosotros" "servicios servicios servicios" "contacto contacto contacto" "footer footer footer";
+    grid-template-columns: auto;
+    grid-template-rows: 3% 21% 12% auto 25% 1%;
+    height: 430vh;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+  a{
+      text-decoration: none;
+      color: khaki;
+
+  }
+
+  .header {
+    grid-area: header;
+  }
+  
+  .carrusel {
+    grid-area: carousel;
+  }
+  
+  .nosotros {
+    grid-area: nosotros;
+  }
+  
+  .servicios {
+    grid-area: servicios;
+  }
+  
+  .footer {
+    grid-area: footer;
+  }
+  
+  #contacto {
+    grid-area: contacto;
+  }
+  
+  .contenidoHeader {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  
+  .menu {
+    margin: 1% 10% 0 0;
+    display: flex;
+  }
+  .menu a {
+    text-decoration: none;
+    color: black;
+    margin: 0 14% 0 0;
+  }
+  
+  .flexLogo {
+    display: flex;
+    
+  }
+  .flexLogo h1 {
+    font-size: 100%;
+  }
+  
+  .flexMain {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flexContacto {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /*Reseteo*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #EFEFEF;
+  }
+  
+  /* Header*/
+  .logo img {
+    height: 150px;
+    width: 250px;
+    margin: 1px 0 5px 10px;
+    padding: 0 0 30px 0;
+  }
+  
+  header {
+    background-color: #06389c;
+    color: khaki;
+  }
+  
+  .menu a {
+    color: khaki;
+  }
+  
+  /* Section */
+  .carrusel div img {
+    height: 100%;
+    max-height: 88vh;
+  }
+  
+  /* Nosotros*/
+  .nosotros {
+    color: khaki;
+    background-color: #06389c;
+    text-align: center;
+    padding-top: 2%;
+  }
+  
+  /*Main*/
+  main {
+    background-color: #EFEFEF;
+  }
+  main h2 {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 700;
+    font-style: inherit;
+  }
+  
+  main ul {
+    list-style: url(/AppEstudio/img/arrow-right-square.svg);
+  }
+  
+  .imgServicios, .imgServicios1 {
+    height: 30%;
+    width: 40%;
+    max-height: 300px;
+    margin-top: 3%;
+    border-radius: 50%;
+  }
+  
+  .imgServicios1 {
+    margin-top: 8%;
+    border-radius: 30%;
+  }
+  
+  .textoServicios, .textoServicios1 {
+    margin-top: 6%;
+  }
+  
+  .textoServicios1 {
+    margin-right: 16%;
+  }
+  
+  /*Contacto*/
+  #contacto {
+    background-color: #06389c;
+    color: khaki;
+  }
+  #contacto h3 {
+    margin-top: 1%;
+    text-align: center;
+  }
+  
+  form {
+    padding: 5% 0 0 30%;
+  }
+  form p {
+    width: 20%;
+  }
+  
+  .botonA, .botonB {
+    padding: 2% 15% 2% 15%;
+    margin: 2% 0% 2% 3%;
+    border-radius: 20%;
+  }
+  
+  .botonB {
+    color: black;
+  }
+  .botonB a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .margin {
+    margin-bottom: 7%;
+  }
+  
+  /* Footer */
+  footer {
+    color: #06389c;
+  }
+  footer ul {
+    margin-right: 5%;
+  }
+  
+  
+  
